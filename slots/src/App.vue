@@ -10,7 +10,7 @@
         <template v-slot:title>
           {{ item.title }}
         </template>
-        <template v-slot:content>
+        <template v-if="item.content" v-slot:content>
           {{ item.content }}
         </template>
       </item>
@@ -30,6 +30,7 @@ export default {
       items: [
         { id: 1, title: "아이템1", content: "콘텐트1" },
         { id: 2, title: "아이템2", content: "콘텐트2" },
+        { id: 3, title: "아이템3" }
       ],
     };
   },
