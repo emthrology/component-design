@@ -35,7 +35,7 @@ export default {
         { id: 1, title: "아이템1", content: "콘텐트1" },
         { id: 2, title: "아이템2", content: "콘텐트2" },
         { id: 3, title: "아이템3" },
-        { id: 3, content: "콘텐트4" }
+        { id: 4, content: "콘텐트4" }
       ],
     };
   },
