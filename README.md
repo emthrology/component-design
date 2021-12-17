@@ -1,4 +1,4 @@
-# vue-advanced
+# vue - component design patterns
 
 1. 기본적인 컴포넌트 등록과 컴포넌트 통신  
 2. slot - 마크업 확장이 가능한 컴포넌트  
